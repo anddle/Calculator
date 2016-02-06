@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.anddle.calculator.MainActivity">
+    tools:context="com.anddle.calculator.MainActivity"
+    android:background="#FF4B5459">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,13 +17,20 @@
             android:id="@+id/result_area"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            style="@style/TextAreaStyle" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#FF5C6265" />
 
         <TextView
             android:id="@+id/formula_area"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            style="@style/TextAreaStyle" />
 
     </LinearLayout>
 
@@ -43,7 +51,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="C" />
+                    android:text="C"
+                    style="@style/SymbolLightBtnStyle" />
 
                 <Button
                     android:id="@+id/btn_del"
@@ -51,7 +60,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="DEL" />
+                    android:text="DEL"
+                    style="@style/SymbolLightBtnStyle" />
 
                 <Button
                     android:id="@+id/btn_div"
@@ -59,7 +69,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="/" />
+                    android:text="/"
+                    style="@style/SymbolLightBtnStyle" />
             </TableRow>
 
             <TableRow android:layout_weight="1">
@@ -69,7 +80,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="7" />
+                    android:text="7"
+                    style="@style/DigitalBtnStyle" />
 
                 <Button
                     android:id="@+id/btn_8"
@@ -77,7 +89,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="8" />
+                    android:text="8"
+                    style="@style/DigitalBtnStyle" />
 
                 <Button
                     android:id="@+id/btn_9"
@@ -85,7 +98,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="9" />
+                    android:text="9"
+                    style="@style/DigitalBtnStyle" />
             </TableRow>
 
             <TableRow android:layout_weight="1">
@@ -95,7 +109,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="4" />
+                    android:text="4"
+                    style="@style/DigitalBtnStyle" />
 
                 <Button
                     android:id="@+id/btn_5"
@@ -103,7 +118,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="5" />
+                    android:text="5"
+                    style="@style/DigitalBtnStyle" />
 
                 <Button
                     android:id="@+id/btn_6"
@@ -111,7 +127,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="6" />
+                    android:text="6"
+                    style="@style/DigitalBtnStyle" />
             </TableRow>
 
             <TableRow android:layout_weight="1">
@@ -121,7 +138,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="1" />
+                    android:text="1"
+                    style="@style/DigitalBtnStyle" />
 
                 <Button
                     android:id="@+id/btn_2"
@@ -129,7 +147,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="2" />
+                    android:text="2"
+                    style="@style/DigitalBtnStyle" />
 
                 <Button
                     android:id="@+id/btn_3"
@@ -137,7 +156,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="3" />
+                    android:text="3"
+                    style="@style/DigitalBtnStyle" />
             </TableRow>
 
             <TableRow android:layout_weight="1">
@@ -147,7 +167,8 @@
                     android:layout_weight="2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="0" />
+                    android:text="0"
+                    style="@style/DigitalBtnStyle" />
 
                 <Button
                     android:id="@+id/btn_dot"
@@ -155,7 +176,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:text="." />
+                    android:text="."
+                    style="@style/DigitalBtnStyle" />
             </TableRow>
 
         </TableLayout>
@@ -171,7 +193,8 @@
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:text="*" />
+                android:text="*"
+                style="@style/SymbolDarkBtnStyle" />
 
             <Button
                 android:id="@+id/btn_sub"
@@ -179,7 +202,8 @@
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:text="-" />
+                android:text="-"
+                style="@style/SymbolDarkBtnStyle" />
 
             <Button
                 android:id="@+id/btn_add"
@@ -187,7 +211,8 @@
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:text="+" />
+                android:text="+"
+                style="@style/SymbolDarkBtnStyle" />
 
             <Button
                 android:id="@+id/btn_equ"
@@ -195,7 +220,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:text="="
-                android:onClick="onClick" />
+                android:onClick="onClick"
+                style="@style/SymbolDarkBtnStyle" />
 
         </LinearLayout>
 

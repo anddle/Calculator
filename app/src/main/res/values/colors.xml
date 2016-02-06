@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="colorDigitalBtnNormal">#D0DCE3</color>
+    <color name="colorDigitalBtnPressed">#BED1DB</color>
+
+    <color name="colorSymbolDarkBtnNormal">#66A1B4</color>
+    <color name="colorSymbolDarkBtnPressed">#78CCE6</color>
+
+    <color name="colorSymbolLightBtnNormal">#BED1DB</color>
+    <color name="colorSymbolLightBtnPressed">#66A1B4</color>
 </resources>

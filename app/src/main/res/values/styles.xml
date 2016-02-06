@@ -8,4 +8,30 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+	<style name="DigitalBtnStyle">
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:background">@drawable/digital_btn_selector</item>
+    </style>
+
+    <style name="SymbolDarkBtnStyle">
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:background">@drawable/symbol_dark_btn_selector</item>
+    </style>
+
+    <style name="SymbolLightBtnStyle">
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:background">@drawable/symbol_light_btn_selector</item>
+    </style>
+
+    <style name="TextAreaStyle">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
 </resources>
