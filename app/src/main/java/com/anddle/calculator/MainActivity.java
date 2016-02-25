@@ -77,7 +77,8 @@ public class MainActivity extends AppCompatActivity {
 
                     formula.setText("");
                 } catch (SyntaxException e) {
-                    Toast.makeText(MainActivity.this, "Error!", Toast.LENGTH_SHORT).show();
+                    String str = MainActivity.this.getString(R.string.errer_info);
+                    Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
                 }
             }
             break;

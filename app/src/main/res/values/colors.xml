@@ -12,4 +12,8 @@
 
     <color name="colorSymbolLightBtnNormal">#BED1DB</color>
     <color name="colorSymbolLightBtnPressed">#66A1B4</color>
+    <color name="colorAppBG">#FF4B5459</color>
+    <color name="colorDisplayDivider">#FF5C6265</color>
+    <color name="colorBtnText">#FF000000</color>
+    <color name="colorDisplayText">#FFFFFFFF</color>
 </resources>
