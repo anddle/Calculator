@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow android:layout_weight="1">
+        <Button
+            android:id="@+id/btn_7"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_7"
+            style="@style/DigitalBtnStyle" />
+
+        <Button
+            android:id="@+id/btn_8"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_8"
+            style="@style/DigitalBtnStyle" />
+
+        <Button
+            android:id="@+id/btn_9"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_9"
+            style="@style/DigitalBtnStyle" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <Button
+            android:id="@+id/btn_4"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_4"
+            style="@style/DigitalBtnStyle" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_5"
+            style="@style/DigitalBtnStyle" />
+
+        <Button
+            android:id="@+id/btn_6"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_6"
+            style="@style/DigitalBtnStyle" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <Button
+            android:id="@+id/btn_1"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_1"
+            style="@style/DigitalBtnStyle" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_2"
+            style="@style/DigitalBtnStyle" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_3"
+            style="@style/DigitalBtnStyle" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <Button
+            android:id="@+id/btn_0"
+            android:onClick="onClick"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_0"
+            style="@style/DigitalBtnStyle" />
+
+        <Button
+            android:id="@+id/btn_dot"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_dot"
+            style="@style/DigitalBtnStyle" />
+    </TableRow>
+
+</merge>

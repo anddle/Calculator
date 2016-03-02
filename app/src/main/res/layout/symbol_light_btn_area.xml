@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_c"
+        android:onClick="onClick"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/btn_c"
+        style="@style/SymbolLightBtnStyle" />
+
+    <Button
+        android:id="@+id/btn_del"
+        android:onClick="onClick"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/btn_del"
+        style="@style/SymbolLightBtnStyle" />
+
+    <Button
+        android:id="@+id/btn_div"
+        android:onClick="onClick"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/btn_div"
+        style="@style/SymbolLightBtnStyle" />
+
+</merge>

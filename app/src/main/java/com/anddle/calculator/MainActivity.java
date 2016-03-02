@@ -85,5 +85,31 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
 
+        TextView formula = (TextView) findViewById(R.id.formula_area);
+        String strFormula = formula.getText().toString();
+
+        outState.putString("KEY_FORMULA_AREA", strFormula);
+
+        TextView result = (TextView) findViewById(R.id.result_area);
+        String strResult = result.getText().toString();
+
+        outState.putString("KEY_RESULT_AREA", strResult);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        TextView formula = (TextView) findViewById(R.id.formula_area);
+        String strFormula = savedInstanceState.getString("KEY_FORMULA_AREA");
+        formula.setText(strFormula);
+
+        TextView result = (TextView) findViewById(R.id.result_area);
+        String strResult = savedInstanceState.getString("KEY_RESULT_AREA");
+        result.setText(strResult);
+    }
 }
