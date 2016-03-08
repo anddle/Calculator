@@ -2,4 +2,7 @@
 <resources>
     <string name="app_name">计算器</string>
     <string name="errer_info">错误!</string>
+    <string name="about">关于</string>
+    <string name="unknown">未知</string>
+    <string name="verion_info">版本号: %s \n 设计者: 安豆</string>
 </resources>

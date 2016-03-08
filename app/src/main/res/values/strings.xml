@@ -19,4 +19,7 @@
     <string name="btn_add">+</string>
     <string name="btn_equ">=</string>
     <string name="errer_info">Error!</string>
+    <string name="about">About</string>
+    <string name="unknown">Unknown</string>
+    <string name="verion_info">Version: %s \n Designer: Anddle</string>
 </resources>

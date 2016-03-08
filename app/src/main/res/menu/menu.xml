@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto">
+
+    <item
+        apps:showAsAction="never"
+        android:id="@+id/menu_about"
+        android:title="@string/about"
+        />
+</menu>
