@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -100,7 +102,31 @@ public class MainActivity extends AppCompatActivity {
                     TextView result = (TextView) findViewById(R.id.result_area);
                     result.setText(String.valueOf(res));
 
-                    formula.setText("");
+                    Animation fadeIn = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_in);
+                    result.startAnimation(fadeIn);
+
+                    Animation fadeOut = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_out);
+                    formula.startAnimation(fadeOut);
+                    fadeOut.setAnimationListener(new Animation.AnimationListener() {
+                        @Override
+                        public void onAnimationStart(Animation animation) {
+
+                        }
+
+                        @Override
+                        public void onAnimationEnd(Animation animation) {
+
+                            TextView formula = (TextView) findViewById(R.id.formula_area);
+                            formula.setText("");
+                        }
+
+                        @Override
+                        public void onAnimationRepeat(Animation animation) {
+
+                        }
+                    });
+
+
                 } catch (SyntaxException e) {
                     String str = MainActivity.this.getString(R.string.errer_info);
                     Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
